@@ -5,9 +5,85 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>New Tab</title>
-	<link rel="stylesheet" href="app.css">
+	<style>
+		html, body {
+			background-color: #2e3440;
+			height: 100%;
+		}
+
+		.container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+		}
+
+		.content {
+			min-width: 800px;
+			background-color: #3b4252;
+			border-radius: 12px;
+
+			display: flex;
+			flex-direction: column;
+		}
+
+		.links {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			flex-wrap: wrap;
+
+			max-height: 200px;
+			margin: 12px;
+			margin-top: 24px;
+			margin-bottom: 24px;
+		}
+
+		.break {
+		  page-break-before: always;
+		}
+
+		h1 {
+			color: #d8dee9;
+			font-family: 'IBM Plex Mono';
+			font-weight: bold;
+			margin-left: 20px;
+			margin-top: 20px;
+		}
+
+		a, a:link, a:visited, a:hover, a:active {
+			color: #88c0d0;
+			font-family: 'IBM Plex Mono';
+			margin-top: 4px;
+			margin-bottom: 4px;
+			text-decoration: none;
+			transition: 0.3s;
+		}
+
+		a:hover {
+			color: #d08770;
+		}
+	</style>
 </head>
-<body class="is-loading">
-	<script src="app.js"></script>
+<body>
+	<div class="container">
+		<div class="content">
+			<!-- <h1>Home</h1> -->
+			<div class="links">
+				<a href="https://news.ycombinator.com">Hacker News</a>
+				<a href="https://reddit.com">Reddit</a>
+				<a href="https://youtube.com">YouTube</a>
+				<div class="break"></div>
+				<a href="https://github.com/matoushybl">GitHub</a>
+				<a href="https://git.robotika.ceitec.vutbr.cz:2223">GitLab - CEITEC</a>
+				<a href="https://git.orpheus-project.cz">GitLab - LTR</a>
+				<a href="https://git.student.robotika.ceitec.vutbr.cz">GitLab - Student</a>
+				<div class="break"></div>
+				<a href="https://myfirmware.org">Blog</a>
+				<a href="https://reddit.com/mechanicalkeyboards">r/mk</a>
+				<a href="https://kbdfans.com">KBDFans</a>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

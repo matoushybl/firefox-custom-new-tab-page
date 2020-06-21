@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Custom New Tab Page",
-  "version": "0.6.0",
-  "description": "Specify a custom URL to be shown when opening a new tab, without changing the address bar content",
+  "name": "My New Tab Page",
+  "version": "0.7.0",
+  "description": "Show a new tab page with urls of my choice",
   "developer": {
-    "name": "MethodGrab",
-    "url": "https://github.com/methodgrab/firefox-custom-new-tab-page"
+    "name": "MatousHybl",
+    "url": "https://github.com/matoushybl/firefox-custom-new-tab-page"
   },
   "icons": {
     "48": "img/icon-48.png",

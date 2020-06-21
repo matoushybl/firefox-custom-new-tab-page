@@ -45,8 +45,8 @@ const showCustomPage = opts => {
 };
 
 const init = _ => {
-	browser.storage.sync.get([ 'customNewTabUrl', 'customNewTabTitle', 'theme', 'customBackgroundColor' ])
-		.then( showCustomPage );
+	// browser.storage.sync.get([ 'customNewTabUrl', 'customNewTabTitle', 'theme', 'customBackgroundColor' ])
+	// 	.then( showCustomPage );
 };
 
 init();
